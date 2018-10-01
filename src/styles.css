@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+h2 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+mat-card {
+  width: 400px;
+  margin: 25px auto 0;
+}
+
+.mat-list-text {
+  flex-direction: row !important;
+  justify-content: space-between;
+  flex: 1;
+  display: flex;
+  padding-left: 16px;
+}
+
+.mat-list-item-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 16px;
+  height: inherit;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+[cdkdraghandle] {
+  cursor: all-scroll;
+}
